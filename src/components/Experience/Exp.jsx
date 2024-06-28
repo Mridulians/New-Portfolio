@@ -48,10 +48,16 @@ const Exp = () => {
                     {experience.title}
                   </h3>
                   <p
-                    className="text-black-500 font-medium font-base"
+                    className="text-black font-medium font-base"
                     style={{ margin: 0 }}
                   >
                     {experience.company_name}
+                  </p>
+                  <p
+                    className="text-black font-medium font-base opacity-[0.5]"
+                    style={{ margin: 0 }}
+                  >
+                    {experience.date}
                   </p>
                 </div>
 
