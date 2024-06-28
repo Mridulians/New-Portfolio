@@ -9,7 +9,7 @@ import { experiences } from "../../constants";
 
 const Exp = () => {
   return (
-    <div className="bg-zinc-900">
+    <div className="bg-zinc-900" id="experience">
       <div className="px-[10px]">
         <h3 className="text-white text-[3rem] opacity-[0.8] font-bold font-serif text-center pt-[1rem]">
           Work Experience

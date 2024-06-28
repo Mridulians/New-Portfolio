@@ -5,7 +5,7 @@ import { skills } from "../../constants";
 
 const Skill = () => {
   return (
-    <div className="bg-zinc-900">
+    <div className="bg-zinc-900" id='skill'>
       <div className="bg-zinc-700 sm:w-[70%] m-auto flex flex-col justify-center items-center p-[2rem]">
         <h2 className="text-white text-[3rem] opacity-[0.8] font-bold font-serif">
           SKILLS

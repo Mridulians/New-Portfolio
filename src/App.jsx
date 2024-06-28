@@ -3,6 +3,8 @@ import Exp from './components/Experience/Exp';
 import Navbar from './components/Navbar/Navbar'
 import Project from './components/Projects/Project';
 import Skill from './components/Skills/Skill';
+import Contact from './components/Contact/Contact'
+import Coding from './components/Coding/Coding';
 
 function App() {
   return <>
@@ -10,7 +12,9 @@ function App() {
   <Banner/>
   <Skill />
   <Project />
+  <Coding />
   <Exp />
+  <Contact />
   </>
 }
 

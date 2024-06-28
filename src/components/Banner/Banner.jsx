@@ -6,7 +6,10 @@ import BannerImg from "../../assets/banner_img.svg";
 const Banner = () => {
   return (
     <>
-      <div className="main h-fit md:h-[100vh] flex flex-col md:flex-row justify-around items-center px-[1rem] md:px-[2rem]">
+      <div
+        className="main h-fit md:h-[100vh] flex flex-col md:flex-row justify-around items-center px-[1rem] md:px-[2rem]"
+        id="home"
+      >
         {/* <h1>Hi i'm MRIDUL GUPTA </h1> */}
 
         <div className="w-[100%] md:w-[60%] mt-[2rem] md:mt-[0rem]">
@@ -30,11 +33,17 @@ const Banner = () => {
               }}
             />
           </h3>
-          <p className="text-white opacity-[0.6] mt-[10px] font-serif text-[20px]">As a software developer with nearly a year of experience, I specialize in frontend development. My skill set includes web development, web design, and web app development using React.js, Tailwind CSS, Next.js, Redux, Node.js, and Express.js. I focus on creating sleek, responsive, and high-performance web applications.</p>
+          <p className="text-white opacity-[0.6] mt-[10px] font-serif text-[20px]">
+            As a software developer with nearly a year of experience, I
+            specialize in frontend development. My skill set includes web
+            development, web design, and web app development using React.js,
+            Tailwind CSS, Next.js, Redux, Node.js, and Express.js. I focus on
+            creating sleek, responsive, and high-performance web applications.
+          </p>
         </div>
 
         <div className="w-[100%] md:w-[40%]">
-          <img src={BannerImg} alt="" />
+          <img src={BannerImg} alt="" className="bounce-animation" />
         </div>
       </div>
     </>
