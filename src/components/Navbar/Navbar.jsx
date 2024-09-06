@@ -10,6 +10,7 @@ import Cross from "../../assets/cross.png";
 import { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
+import nameLogo from "./1.png";
 
 const Navbar = () => {
   const [sidebarVisible, setSidebarVisible] = useState(false);
@@ -21,9 +22,10 @@ const Navbar = () => {
   return (
     <>
       <div className="bg-zinc-900 hidden md:flex flex-row py-[2rem] px-[1rem] lg:px-[2rem] justify-between items-center">
-        <h2 className="font-bold text-[1.8rem] lg:text-[2rem] text-white font-mono">
+        {/* <h2 className="font-bold text-[1.8rem] lg:text-[2rem] text-white font-mono">
           MRIDUL
-        </h2>
+        </h2> */}
+        <img src={nameLogo} alt="" className="h-[100px]" />
 
         <div className="flex flex-row items-center gap-[1.5rem] lg:gap-[3rem]">
           <div className="list-none text-white flex gap-[15px] lg:gap-[20px] cursor-pointer">
@@ -129,11 +131,12 @@ const Navbar = () => {
       </div>
 
       <nav className="flex md:hidden items-center justify-between px-[1rem] py-[10px] bg-zinc-900">
-        <h2 className="font-bold text-[2rem] text-white font-mono">MRIDUL</h2>
+        {/* <h2 className="font-bold text-[2rem] text-white font-mono"></h2> */}
+        <img src={nameLogo} alt="" className="h-[100px]" />
         <img
           src={Ham}
           alt=""
-          className="w-[1rem] h-[1rem]"
+          className="w-[2rem] h-[2rem]"
           onClick={toggleSidebar}
         />
       </nav>

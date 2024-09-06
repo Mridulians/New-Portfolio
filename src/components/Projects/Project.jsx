@@ -1,5 +1,6 @@
 
 
+import P0 from "../../assets/P0.png";
 import P1 from "../../assets/P1.png";
 import P2 from "../../assets/P2.png";
 import P3 from "../../assets/P3.png";
@@ -11,6 +12,12 @@ import P8 from "../../assets/P8.png";
 
 const Project = () => {
   const data = [
+    {
+      id: 0,
+      img: P0,
+      name: "Tomato",
+      link: "https://food-ordering-frontend-uly6.onrender.com/",
+    },
     {
       id: 1,
       img: P1,
